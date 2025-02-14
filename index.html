@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <li class="text">Fitness Gym</li>
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#service-container">Services</a></li>
+            <li class="item"><a href="#Contact">Contact Us</a></li>
+            <li class="item"><a href="#login">Login</a></li>
+        </ul>
+        <section id="home">
+            <h1 class="h-primary">Fitness Wonders</h1>
+            <p>Wake up with determination, go to bed with satisfaction</p>
+            <button class="btn">READ MORE</button>
+        </section>
+        <section id="services-container">
+            <h1 class="h-primary center">Our Services</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="pexels-binyaminmellish-116079.jpg" alt="">
+                    <h2 class="h-secondary center">Personal Training</h2>
+                    <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
+                        the language needed for a successful answer.</p>
+                    <button class="btn">VIEW COURSES</button>
+                </div>
+                <div class="box">
+                    <img src="pexels-binyaminmellish-116077.jpg" alt="">
+                    <h2 class="h-secondary center">Group Training</h2>
+                    <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
+                        the language needed for a successful answer.</p>
+                    <button class="btn">VIEW COURSES</button>
+                </div>
+                <div class="box">
+                    <img src="pexels-anush-1229356.jpg" alt="">
+                    <h2 class="h-secondary center">Group Training</h2>
+                    <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
+                        the language needed for a successful answer.</p>
+                    <button class="btn">VIEW COURSES</button>
+                </div>
+            </div>
+        </section>
+        <script>
+            let age = prompt("What is your age?", "Enter Your age");
+            console.log(age);
+
+            if(age>18){
+                console.log('You are allowed for gym membership');
+            }
+
+            else if(age<18){
+                console.log('You are not allowed for gym membership');
+            }
+
+            else{
+                console.log('Congratulations! You are now eligible for gym membership');
+            }
+        </script>
+</body>
+</html>
