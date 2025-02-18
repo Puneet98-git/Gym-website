@@ -16,6 +16,7 @@ html{
 /* Navigation Bar */
 #navbar{
     align-items: center;
+    display: flex;
     position: sticky;
     top: 0px;
 }
@@ -35,11 +36,10 @@ html{
 /* Navigation Bar: Logo and Image */
 #logo{
     margin: 10px 20px;
-    display: flex;
 }
 
 #logo img{
-    height: 10px;
+    height: 59px;
     margin: 3px 6px;
 }
 
