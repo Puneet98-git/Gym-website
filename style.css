@@ -15,7 +15,6 @@ html{
 
 /* Navigation Bar */
 #navbar{
-    display: contents;
     align-items: center;
     position: sticky;
     top: 0px;
