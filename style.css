@@ -42,7 +42,31 @@ html{
     height: 59px;
     margin: 3px 6px;
 }
+.top-btn{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+a.nav-btn {
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    list-style: none;
+    font-size: 1.0rem;
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
 
+}
+
+a.nav-btn:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+    
 
 /* Navigation Bar: List Styling */
 
@@ -103,6 +127,28 @@ html{
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
 }
+#home button:hover {
+    color: red;
+    background-color: white;
+}
+
+
+a.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a.btn:hover {
+    color: red;
+    background-color: white;
+}
+
 /* Services Section */
 #services{
     margin: 5px 30px;
@@ -127,11 +173,23 @@ html{
 
 } 
 
-footer{
-    background: black;
+a.serv-btn {
     color: white;
-    padding: 9px 20px;
+    font-family: 'Baloo Bhai', cursive;
+    list-style: none;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    background-color: darkred;
+    border-radius: 10px;
 }
+
+a.serv-btn:hover {
+    color: brown;
+    background-color: white;
+}
+
+
 
 /* Utility Classes */
 .h-primary{
@@ -164,4 +222,10 @@ footer{
 
 .center{
     text-align: center;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
 }
