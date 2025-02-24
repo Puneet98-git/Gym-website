@@ -248,6 +248,7 @@ div {
     border-block: none;
     display: grid;
     justify-items: center;
+    justify-content: center;
 }
 
 button.submit {
