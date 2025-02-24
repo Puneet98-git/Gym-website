@@ -227,8 +227,8 @@ div#contacts {
     margin: 5px 85px;
     padding: 2px 0px;
     border-radius: 10px;
-    display: flex;
-    justify-content: centre;
+    display:flex;
+    justify-content: center;
 }
 
 input#name {
@@ -245,7 +245,6 @@ button.btn:hover{
     color: brown;
     background-color: white;
 }
-
 /* Utility Classes */
 .h-primary{
     font-family: 'Bree Serif', serif;
