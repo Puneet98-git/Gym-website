@@ -234,18 +234,22 @@ input#name {
     font-size: 20px;
 }
 
-div {
-    display: grid;
-    justify-items: center;
-    justify-content: center;
+input#phone {
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
-button.btn {
+input#email {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+button.submit {
     font-size: 20px;
     padding: 8px 20px;
 }
 
-button.btn:hover{
+button.submit:hover{
     color: brown;
     background-color: white;
 }
