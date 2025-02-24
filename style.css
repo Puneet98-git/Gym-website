@@ -237,6 +237,7 @@ input#name {
 div {
     display: grid;
     justify-items: center;
+    justify-content: center;
 }
 
 button.btn {
