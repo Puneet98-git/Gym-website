@@ -224,16 +224,19 @@ div#contacts {
 .form-group {
     width: auto;
     border: 2px solid black;
-    margin: 5px 85px;
+    margin: 5px 385px;
     padding: 2px 0px;
     border-radius: 10px;
-    display:flex;
-    justify-content: center;
 }
 
 input#name {
     font-family: sans-serif;
     font-size: 20px;
+}
+
+div {
+    display: grid;
+    justify-items: center;
 }
 
 button.btn {
