@@ -149,6 +149,16 @@ a.btn:hover {
     background-color: white;
 }
 
+/* video */
+h1{
+    text-align: center;
+}
+
+.fitness-video{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
 /* Services Section */
 #services{
     margin: 5px 30px;
