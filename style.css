@@ -257,8 +257,8 @@ button.submit {
 }
 
 button.submit:hover{
-    color: brown;
-    background-color: white;
+    color: aqua;
+    background-color: blueviolet;
 }
 /* Utility Classes */
 .h-primary{
