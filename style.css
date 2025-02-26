@@ -264,12 +264,26 @@ div {
 
 form#submit {
     font-size: 20px;
-    padding: 8px 20px;
+    padding: 5px;
 }
 
 form#submit:hover{
     color: aqua;
     background-color: blueviolet;
+}
+
+button {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: brown;
+    background-color: teal;
 }
 /* Utility Classes */
 .h-primary{
