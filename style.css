@@ -48,6 +48,7 @@ html{
     position: sticky;
     padding: 10px 5px;
     border-radius: 20px;
+    z-index: -1;
 }
 a.nav-btn {
     color: white;
@@ -261,12 +262,12 @@ div {
     justify-content: center;
 }
 
-button.submit {
+form#submit {
     font-size: 20px;
     padding: 8px 20px;
 }
 
-button.submit:hover{
+form#submit:hover{
     color: aqua;
     background-color: blueviolet;
 }
