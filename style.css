@@ -16,7 +16,6 @@ html{
 /* Navigation Bar */
 #navbar{
     align-items: center;
-    display: flex;
     position: sticky;
     top: 0px;
 }
@@ -71,6 +70,10 @@ a.nav-btn:hover {
 
 /* Navigation Bar: List Styling */
 
+#navbar {
+    position: sticky;
+    display: flex;
+}
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai', cursive;
@@ -120,6 +123,7 @@ a.nav-btn:hover {
     color:white;
     text-align: center;
     font-family: 'Bree Serif', serif;
+    padding: 20px;
 }
 
 #home p{
@@ -143,11 +147,19 @@ a.btn {
     font-size: 15px;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 0 8px #999;
 }
 
 a.btn:hover {
     color: red;
     background-color: white;
+    box-shadow: 0 8px 99px rgba(0, 0, 0, 0.2); 
+}
+
+a.btn:active{
+    background-color: rgb(188, 27, 72);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /* video */
@@ -174,7 +186,8 @@ h1{
 }
 
 #services .box img{ 
-   height: 160px;
+   height: auto;
+   width: 100%;
    margin: auto;
    display: block;
 }
@@ -182,7 +195,31 @@ h1{
 #services .box p{
     font-family: 'Bree Serif', serif;
 
-} 
+}
+
+a.top-btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+a.top-btn:hover {
+    color: red;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.266);
+}
+
+a.top-btn:active{
+    background-color: blue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
 a.serv-btn {
     color: white;
@@ -261,6 +298,22 @@ div {
     justify-items: center;
     justify-content: center;
 }
+button {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: brown;
+    background-color: teal;
+}
 
 form#submit {
     font-size: 20px;
@@ -312,6 +365,7 @@ button:hover{
 .btn:hover{
     background-color: brown;
     color: white;
+    box-shadow: 0 8px 16px rgba(234, 11, 11, 0.623);
 }
 
 .center{
