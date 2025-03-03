@@ -41,15 +41,7 @@ html{
     height: 59px;
     margin: 3px 6px;
 }
-.top-btn{
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    padding: 10px 5px;
-    border-radius: 20px;
-    z-index: -1;
-}
-a.nav-btn {
+a.nav-btn{
     color: white;
     font-family: 'Baloo Bhai', cursive;
     list-style: none;
@@ -58,7 +50,6 @@ a.nav-btn {
     text-decoration: none;
     background-color: black;
     border-radius: 10px;
-
 }
 
 a.nav-btn:hover {
@@ -138,7 +129,7 @@ a.nav-btn:hover {
 }
 
 
-a.top-btn {
+a.btn {
     padding: 6px 20px;
     border: 2px solid white;
     background-color: brown;
@@ -150,7 +141,7 @@ a.top-btn {
     box-shadow: 0 8px #999;
 }
 
-a.top-btn:hover {
+a.btn:hover {
     color: red;
     background-color: white;
     box-shadow: 0 8px 99px rgba(0, 0, 0, 0.2); 
@@ -219,22 +210,6 @@ a.top-btn:active{
     background-color: blue;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}
-
-a.serv-btn {
-    color: white;
-    font-family: 'Baloo Bhai', cursive;
-    list-style: none;
-    font-size: 25px;
-    display: block;
-    text-decoration: none;
-    background-color: darkred;
-    border-radius: 10px;
-}
-
-a.serv-btn:hover {
-    color: brown;
-    background-color: white;
 }
 
 /* Trainers section */
