@@ -147,7 +147,7 @@ a.btn:hover {
     box-shadow: 0 8px 99px rgba(0, 0, 0, 0.2); 
 }
 
-a.top-btn:active{
+a.btn:active{
     background-color: rgb(188, 27, 72);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
