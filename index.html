@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,68 +9,73 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
 </head>
+
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="fitness-gym-sport-vector-logo-design-2E8T57J.jpg"  alt="">
+            <img src="fitness-gym-sport-vector-logo-design-2E8T57J.jpg" alt="">
         </div>
+
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services" id="services-container">Services</a></li>
-          <li><a href="#trainers" id="trainers-container">Our Trainers</a></li>
-          <li><a href="#contacts" id="contact">Contact Us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services" id="services-container">Services</a></li>
+            <li><a href="#trainers" id="trainers-container">Our Trainers</a></li>
+            <li><a href="#contacts" id="contact-section">Contact Us</a></li>
         </ul>
     </nav>
 
-        <section class="home" id="home">
-            <h1 class="h-primary">Fitness Wonders</h1>
-            <p>Wake up with determination, go to bed with satisfaction</p>
-            <a href="https://puneet98-git.github.io/Training/" class="btn">Read More</a>
-        </section>
+    <!-- home section -->
+    <section class="home" id="home">
+        <h1 class="h-primary">Fitness Wonders</h1>
+        <p>Wake up with determination, go to bed with satisfaction</p>
+        <a href="https://puneet98-git.github.io/Training/" class="btn">Read More</a>
+    </section>
 
-     <!-- video-section -->
+    <!-- video-section -->
     <div class="video-container">
-        <h1>Fitness Video</h1>
+        <h1 class="h-primary">Fitness Video</h1>
         <iframe class="fitness-video" src="https://www.youtube.com/embed/wIynl3at0Rs?si=Mgk-GsjsqCV_qAoI"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    
-        <section id="services-container">
-            <h1 class="h-primary center">Our Services</h1>
-            <div id="services">
-                <div class="box">
-                    <img src="pexels-binyaminmellish-116079.jpg" alt="">
-                    <h2 class="h-secondary center">Personal Training</h2>
-                    <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
-                        the language needed for a successful answer.</p>
-                    <div class="top-btn">
-                        <a href="https://puneet98-git.github.io/Training/" class="serv-btn">View Courses</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="pexels-olly-3768913.jpg" alt="">
-                    <h2 class="h-secondary center">Group Training</h2>
-                    <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
-                        the language needed for a successful answer.</p>
-                     <div class="top-btn">
-                        <a href="https://puneet98-git.github.io/Training/" class="serv-btn">View Courses</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="pexels-anush-1229356.jpg" alt="">
-                    <h2 class="h-secondary center">Group Training</h2>
-                    <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
-                        the language needed for a successful answer.</p>
-                     <div class="top-btn">
-                        <a href="https://puneet98-git.github.io/Training/" class="serv-btn">View Courses</a>
-                    </div>
+
+    <!-- services section -->
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pexels-binyaminmellish-116079.jpg" alt="">
+                <h2 class="h-secondary center">Personal Training</h2>
+                <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
+                    the language needed for a successful answer.</p>
+                <div class="top-btn">
+                    <a href="https://puneet98-git.github.io/Training/" class="top-btn">View Courses</a>
                 </div>
             </div>
-        </section>
-     <!-- Our trainers -->
-    <section id="trainers-containers">
+            <div class="box">
+                <img src="pexels-olly-3768913.jpg" alt="">
+                <h2 class="h-secondary center">Group Training</h2>
+                <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
+                    the language needed for a successful answer.</p>
+                <div class="top-btn">
+                    <a href="https://puneet98-git.github.io/Training/" class="top-btn">View Courses</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pexels-anush-1229356.jpg" alt="">
+                <h2 class="h-secondary center">Group Training</h2>
+                <p class="center">You’ll look at graphs and charts in Task One, how to approach the task and
+                    the language needed for a successful answer.</p>
+                <div class="top-btn">
+                    <a href="https://puneet98-git.github.io/Training/" class="top-btn">View Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our trainers -->
+    <section id="trainers-container">
         <h1 class="h-primary center">Our Trainers</h1>
         <div id="trainers">
             <div class="box">
@@ -85,32 +91,36 @@
     </section>
 
     <!-- contact-section -->
-  <section id="contact-section">
+
+    <section id="contact-section">
         <h1 class="h-primary center">Our Contact</h1>
         <div id="contacts">
             <div class="form-group">
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Your Name">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Your Name" required>
             </div>
-             <div class="form-group">
-                    <label for="name"></label>
-                    <input type="number" id="phone" placeholder="Your Phone Number">
-             </div>
-             <div class="form-group">
-                    <label for="name"></label>
-                    <input type="email" id="email" placeholder="Your Email">
-             </div>
-             <div class="submit">
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="number" id="phone" placeholder="Your Phone Number" required>
+            </div>
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="submit">
                 <button type="submit">submit</button>
             </div>
         </div>
     </section>
+
     <!-- footer-section -->
     <footer>
         <div class="center">
             Copyright &copy; www.gym.com. All rights reserved!
         </div>
     </footer>
+
     <script src="gym.js"></script>
 </body>
+
 </html>
