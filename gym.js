@@ -10,3 +10,22 @@ document.getElementById('form-group').addEventListener('submit', function(event)
   alert('Please fill out all fields.');
  }
 });
+
+
+let topBottom = document.getElementById("topBottom");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+}
+
+topButton.addEventListener("click", function() {
+    window.scrollTo({
+        top:0,
+        behavior: 'smooth'
+    });
+});
